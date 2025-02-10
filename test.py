@@ -2,7 +2,7 @@ import requests
 from urllib.parse import urljoin
 
 # Base API URL (Change this as needed)
-base_url = "https://slick-papers-beam.loca.lt/"
+base_url = ""
 
 # "/upload" is appended after the url
 upload_url = urljoin(base_url.rstrip("/") + "/", "upload")
